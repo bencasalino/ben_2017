@@ -5,6 +5,7 @@ body {
 
 
 nav {
+    margin-top: -9px;
     height: 30px;
     line-height: 30px;
 }
