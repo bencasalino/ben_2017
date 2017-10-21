@@ -1,0 +1,351 @@
+body {
+    background-color: white;
+}
+
+
+
+nav {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+#logo-container {
+        color: #444;
+    font-size: 16px;
+    letter-spacing: 2px;
+      height: 30px;
+    line-height: 30px;
+}
+p {
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* jumps icons down from bg image 1 */
+
+.jump {
+    padding-top: 350px;
+}
+
+
+/* PARALLAX  */
+
+.parallax-container {
+    min-height: 400px;
+    line-height: 0;
+    height: auto;
+/*    what is this color? */
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+
+/* GLOBAL / THEME */
+
+h1,
+h2,
+h3 {
+    font-family: "Libre Baskerville", serif;
+}
+
+a,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.cta {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 13px;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+.cta_contact {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 13px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.cta_contact:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+
+
+.cta_modal {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 13px;
+    margin: 2px 2px 2px 0;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid #000000 2px;
+    text-decoration: none;
+}
+
+.cta_modal:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+.cta_case_studies {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 13px;
+    margin: 2px 2px 2px 0;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid #000000 2px;
+    text-decoration: none;
+}
+
+.cta_case_studies:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+
+
+
+/* ABOUT SECTION */
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+/* PROFECIANCIES SECTION */
+
+
+/* CASE STUDIES SECTION */
+
+.carousel .carousel-item {
+    width: 275px !important;
+}
+
+.case {
+    margin-bottom: -60px;
+}
+
+
+/* PROJECTS SECTION */
+
+.tiles {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+
+
+/* CONTACT SECTION */
+
+
+/* .map {
+    height: 200px;
+    margin: -50px;
+} */
+
+
+/* FOOTER */
+
+/* footer text */
+.footer-copyright {
+/*    height: 50px;*/
+    background-color: white;
+       color: #000000;
+      height: 16px; 
+    
+}
+
+/* main footer div */
+.page-footer {
+    background-color: white;
+       color: #000000;
+     height: 30px; 
+}
+
+footer.page-footer {
+    margin: 0;
+      background-color: white;
+       color: #000000;
+}
+
+
+
+/* INACTIVE */
+
+
+/* .timeline_center {
+    margin: 50px 0 0 0;
+} */
+
+
+/* MEDIA QUERIES */
+
+/*
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+*/
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+
+/* mobile view icon  */
+
+.button-collapse {
+    color: white;
+}
+
+.proj {
+    margin-bottom: 40px;
+}
+
+
+.profs{
+  margin-bottom: 40px;   
+}
+
+
+.proj_grid {
+        margin-bottom: 40px;
+        margin-top: 60px;
+}
+
+
+.test {
+/*    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)*/
+}
+
+
+.case_margin{
+      margin-bottom: 40px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+/*   new imported css from version 1.0  */
+
+
+/*tiles css begin */
+#menu-outer {
+	/*height: 200px;*/
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	/*min-width: 696px;*/
+	list-style: none;
+	/*padding-top: 20px;*/
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+/*tiles css end */
+
+
+/*hoover */
+a {
+    display: inline-block;
+    position: relative;
+}
+.caption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+/*    font-family: 'Open Sans', sans-serif;*/
+     letter-spacing: 1px;
+      font-size: 12px;
+    line-height:300px;
+}
+a:hover .caption {
+    display: block;
+}
+
+
+.img_link {
+    font-size: 12px;
+    height: 300px;
+    width: 300px;
+}
+
+.modal { width: 75% !important ; height: 75% !important ; }  /* increase the height and width as you desire */
+
+
+
+
+
+.skills_section_top_padding{
+    margin-top:  100px;
+}
+
+
+
+.welcome {
+    padding-bottom: 40px;
+}
+
